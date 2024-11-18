@@ -1,4 +1,4 @@
-class Monton:
+class Monton():
     
     __stuff = {}  # Diccionario vacío en lugar de lista
     
