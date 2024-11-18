@@ -48,11 +48,11 @@ if __name__ == "__main__":
     print(f"este es el contenido del monton m1 ahora: {m1}")
     
     m1.amontona("algo más")
-    print(f"este es el contenido del monton m1 ahora: {m1}")  # Esperamos que imprima algo como <<{'algo': 1, 'algo más': 1}>>
+    print(f"este es el contenido del monton m1 ahora: {m1}")  # Esperamos que imprima algo como {'algo': 1, 'algo más': 1}
 
     # Ahora agregamos más elementos
     m1.amontona("perla")
-    print(f"este es el contenido del monton m1 ahora: {m1}")  # Esperamos que imprima <<{'algo': 1, 'algo más': 1, 'perla': 1}>>
+    print(f"este es el contenido del monton m1 ahora: {m1}")  # Esperamos que imprima {'algo': 1, 'algo más': 1, 'perla': 1}
     
     m1.amontona("mas mierdas")
     print(f"este es el contenido del monton m1 ahora: {m1}")
